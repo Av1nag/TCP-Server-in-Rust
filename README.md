@@ -10,7 +10,7 @@ For queries contact udayagiriavinag@gmail.com
 **Note:** Clone ```TCP-Client-in-rust``` to get connect with the suitable TCP client code base
 
 ```bash
-git clone https://github.com/yourusername/your-project.git
+git clone https://github.com/Av1nag/TCP-Server-in-Rust.git
 cd your-project
 cargo build
 
