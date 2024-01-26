@@ -30,7 +30,6 @@ pub fn handle_client(mut stream: TcpStream) -> f64 {
     if total_bytes_read == 8 {
         message = f64::from_ne_bytes(data);
         println!("{}", &message);
-        // echo everything!
         stream.write(&data).unwrap();
     }
     message

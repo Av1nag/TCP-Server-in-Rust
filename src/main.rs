@@ -22,7 +22,6 @@ fn main() {
                 thread::spawn(move || {
                     tcp_server::handle_client(stream);
 
-                    // Store the value in the shared data structure
                 });
             }
             Err(e) => {
